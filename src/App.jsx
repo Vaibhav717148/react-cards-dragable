@@ -4,7 +4,7 @@ import Forground from "./components/Forground";
 
 function App() {
   return (
-    <div className="relative w-full h-screen bg-zinc-800">
+    <div className="relative w-full h-screen bg-zinc-600">
       <Background />
       <Forground />
     </div>

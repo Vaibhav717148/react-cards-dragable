@@ -7,39 +7,39 @@ const ref = useRef(null);
 
   const data = [
     {
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
-      filesize: ".9mb",
+      desc: "Vaibhav Bhosale, Web-Developer",
+      filesize: ".220kb",
+      close: true,
+      tag: { isOpen: true, tagTitle: "Resume", tagColor: "green" },
+    },
+    {
+      desc: "MCA Degree",
+      filesize: ".240kb",
+      close: true,
+      tag: { isOpen: true, tagTitle: "View", tagColor: "blue" },
+    },
+    {
+      desc: "BCA Degree",
+      filesize: ".180kb",
+      close: true,
+      tag: { isOpen: true, tagTitle: "View", tagColor: "green" },
+    },
+    {
+      desc: "Work Experience",
+      filesize: ".100kb",
       close: true,
       tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
     },
     {
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
-      filesize: ".9mb",
-      close: true,
-      tag: { isOpen: true, tagTitle: "Download Now", tagColor: "blue" },
-    },
-    {
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
-      filesize: ".9mb",
-      close: true,
-      tag: { isOpen: false, tagTitle: "Upload", tagColor: "green" },
-    },
-    {
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
-      filesize: ".9mb",
+      desc: "Skills",
+      filesize: ".250kb",
       close: true,
       tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
     },
     {
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
-      filesize: ".9mb",
-      close: true,
-      tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
-    },
-    {
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
-      filesize: ".9mb",
-      close: true,
+      desc: "Certifications",
+      filesize: ".600kb",
+      close: false,
       tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
     },
   ];
