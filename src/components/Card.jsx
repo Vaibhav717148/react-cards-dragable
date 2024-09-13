@@ -28,13 +28,15 @@ function Card({ data, reference }) {
           </span>
         </div>
         {data.tag.isOpen && (
-          <div
-            className={`tag w-full py-4 ${
-              data.tag.tagColor === "blue" ? "bg-blue-600" : "bg-green-600"
-            } flex items-center justify-center`}
-          >
-            <h3 className="text-sm font-semibold">{data.tag.tagTitle}</h3>
-          </div>
+         <a href={data.tag.pdfLink} target="_blank" rel="noopener noreferrer">
+         <div
+           className={`tag w-full py-4 ${
+             data.tag.tagColor === "blue" ? "bg-blue-600" : "bg-green-600"
+           } flex items-center justify-center cursor-pointer`}
+         >
+           <h3 className="text-sm font-semibold">{data.tag.tagTitle}</h3>
+         </div>
+       </a>
         )}
       </div>
     </motion.div>
